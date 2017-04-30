@@ -15,6 +15,7 @@ figure
 
 .content
   position: relative
+  z-index: 2
   background: white
   margin-bottom: 400px
   overflow: hidden
@@ -37,6 +38,7 @@ img
     position: top center
     attachment: fixed
   overflow: hidden
+  z-index: 3
 
 .logo
   height: 100px
@@ -174,3 +176,23 @@ img
     z-index: 2
   .post-3
     transform: translate(-70px, 20px)
+//footer
+
+footer
+  background: black
+  color: white
+  position: fixed
+  padding: 80px 0
+  bottom: 0
+  width: 100%
+  .footer-stuff
+    max-width: 640px
+    margin: 0 auto
+
+  a
+    color: white
+    text-decoration: none
+  input
+    color: #666
+  ul
+    padding-top: 20px
